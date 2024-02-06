@@ -1,6 +1,6 @@
 {
   "name": "vue-keep-cache-scroll-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "用于缓存vue3的滚动条位子的hooks插件",
   "keywords": ["vue-keep-cache-scroll-hooks", "用于缓存vue3的滚动条位子的hooks插件"],
   "author":"380012546@qq.com",

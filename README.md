@@ -1,4 +1,5 @@
-# vue-keep-cache-scroll-hooks
+
+## vue-keep-cache-scroll-hooks
 
 ```
 npm install vue-keep-cache-scroll-hooks --save
@@ -10,6 +11,20 @@ https://j3812549.github.io/pages/index.html#/vuekeepcachescrollhooks/a
 
 
 ##### 使用
+
+ 1. 前置开启keepalive缓存页面
+
+```vue
+<template>
+  <RouterView v-slot="{ Component }">
+    <keep-alive>
+      <component :is="Component" :key="$route.path" />
+    </keep-alive>
+  </RouterView>
+</template>
+```
+
+ 2. 在需要使用的盒子上使用
 
 ```vue
 <script setup>
